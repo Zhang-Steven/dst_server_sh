@@ -33,5 +33,5 @@ check_for_file "$cluster_dir/Caves/server.ini"
 check_for_file "$cluster_dir/Master/modoverrides.lua"
 check_for_file "$install_dir/mods/dedicated_server_mods_setup.lua"
 
-mv $scripts_dir/dedicated_server_mods_setup.lua $install_dir/mods/dedicated_server_mods_setup.lua
+cp $scripts_dir/dedicated_server_mods_setup.lua $install_dir/mods/dedicated_server_mods_setup.lua
 touch "$dontstarve_dir/$cluster_name/cluster_token.txt"
