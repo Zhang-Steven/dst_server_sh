@@ -34,4 +34,4 @@ check_for_file "$cluster_dir/Master/modoverrides.lua"
 check_for_file "$install_dir/mods/dedicated_server_mods_setup.lua"
 
 mv $scripts_dir/dedicated_server_mods_setup.lua $install_dir/mods/dedicated_server_mods_setup.lua
-touch "$install_dir/$cluster_name/cluster_token.txt"
+touch "$dontstarve_dir/$cluster_name/cluster_token.txt"
