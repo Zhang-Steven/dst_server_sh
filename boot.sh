@@ -16,9 +16,9 @@ function check_for_file() {
     fi
 }
 
-if [ "$#" -eq 0];then
+if [ "$#" -eq 0 ];then
     cluster_name="$default_cluster_name"
-elif ["$#" -eq 1];then
+elif ["$#" -eq 1 ];then
     cluster_name="$1"
 else 
     fail "Usage: $0 [cluster_name]"
