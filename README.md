@@ -10,7 +10,7 @@ It was already tested on Ubuntu 1804 and Ubuntu 2204.
 Run
 
 ```bash
-./dependency.sh
+sudo ./dependency.sh
 ```
 
 ```bash
