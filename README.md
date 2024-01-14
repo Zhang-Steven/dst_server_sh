@@ -1,6 +1,17 @@
 # install & init
+使用sh脚本运行饥荒服务器的搭建和运维
 
-中文教程：https://zhuanlan.zhihu.com/p/625645476
+Don't Starve Together Server Construction and Maintenance using sh scripts.
+
+It was already tested on Ubuntu 1804 and Ubuntu 2204.
+
+中文教程Reference：https://zhuanlan.zhihu.com/p/625645476
+
+Run
+
+```bash
+./dependency.sh
+```
 
 ```bash
 ./init.sh
@@ -29,6 +40,14 @@ run
 ```
 
 Cluster_1 is you saved folder in "~/.klei/DoNotStarveTogether" dir
+
+Or run
+
+```bash
+./boot.sh
+```
+
+It will launch the default cluster in the script.
 
 then enjoy the game
 
