@@ -37,5 +37,7 @@ run_shared+=(-console)
 run_shared+=(-cluster "$cluster_name")
 run_shared+=(-monitor_parent_process $$)
 run_shared+=(-shard)
-"${run_shared[@]}" Caves | sed 's/^/Caves: /' &
-"${run_shared[@]}" Master | sed 's/^/Master: /'
+"${run_shared[@]}" Caves | sed 's/^/Caves: /' > "~/server_log.txt" &
+"${run_shared[@]}" Master | sed 's/^/Master: /' >> "~/server_log.txt"
+
+echo "Servers started in the background, check ~/server_log.txt!"
